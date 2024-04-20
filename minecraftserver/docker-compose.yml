@@ -37,7 +37,7 @@ services:
       DIFFICULTY: "easy"
       PVP: "FALSE"
       ALLOW_FLIGHT: "TRUE"
-      LEVEL_TYPE: "biomesoplenty"
+      #LEVEL_TYPE: "biomesoplenty"
       CUSTOM_SERVER_PROPERTIES: |
         allow-cheats=true
         level-name=OsteBoys
