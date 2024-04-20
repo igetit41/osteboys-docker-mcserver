@@ -14,11 +14,14 @@ services:
       #VERSION: 1.20.1
       #FORGE_VERSION: 47.2.20
       #CF_SERVER_MOD: /modpacks/ATM9-0.2.56.zip
+      #CF_SERVER_MOD: /modpacks/Server-Files-0.2.56.zip
 
       TYPE: FORGE
       VERSION: 1.20.1
       FORGE_VERSION: 47.2.20
-      GENERIC_PACK: /modpacks/ATM9-0.2.56.zip
+      #GENERIC_PACK: /modpacks/ATM9-0.2.56.zip
+      #GENERIC_PACK: /modpacks/Server-Files-0.2.56.zip
+      GENERIC_PACK: https://mediafilez.forgecdn.net/files/5226/700/Server-Files-0.2.56.zip
       REMOVE_OLD_MODS: "TRUE"
 
       MEMORY: "8G"
@@ -37,7 +40,7 @@ services:
       DIFFICULTY: "easy"
       PVP: "FALSE"
       ALLOW_FLIGHT: "TRUE"
-      #LEVEL_TYPE: "biomesoplenty"
+      LEVEL_TYPE: "biomesoplenty"
       CUSTOM_SERVER_PROPERTIES: |
         allow-cheats=true
         level-name=OsteBoys
