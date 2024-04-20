@@ -21,7 +21,7 @@ services:
       DIFFICULTY: "easy"
       PVP: "FALSE"
       ALLOW_FLIGHT: "TRUE"
-      GENERIC_PACK: /modpacks/All%20the%20Mods%209-0.2.56.zip
+      GENERIC_PACK: /modpacks/ATM9-0.2.56.zip
       REMOVE_OLD_MODS: "TRUE"
 
       ENABLE_WHITELIST: "FALSE"
