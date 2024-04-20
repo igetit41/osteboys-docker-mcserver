@@ -9,27 +9,31 @@ services:
     stdin_open: true
     environment:
       EULA: "TRUE"
-      TYPE: FORGE
+      TYPE: CURSEFORGE
+      CF_SERVER_MOD: /modpacks/ATM9-0.2.56.zip
 
-      VERSION: 1.20.1
-      FORGE_VERSION: 47.2.20
+      #TYPE: FORGE
+      #VERSION: 1.20.1
+      #FORGE_VERSION: 47.2.20
+      #GENERIC_PACK: /modpacks/ATM9-0.2.56.zip
+      #REMOVE_OLD_MODS: "TRUE"
 
       MEMORY: "8G"
-      
-      SERVER_NAME: "OsteBoys"
-      MODE: "survival"
-      DIFFICULTY: "easy"
-      PVP: "FALSE"
-      ALLOW_FLIGHT: "TRUE"
-      GENERIC_PACK: /modpacks/ATM9-0.2.56.zip
-      REMOVE_OLD_MODS: "TRUE"
 
       ENABLE_WHITELIST: "FALSE"
+      #WHITELIST: |
+        #"D3F1L3"
+        #"PlanetHEOS0X"
       OP: |
         "D3F1L3"
         "PlanetHEOS0X"
 
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      SERVER_NAME: "OsteBoys"
+      MODE: "survival"
+      DIFFICULTY: "easy"
+      PVP: "FALSE"
+      ALLOW_FLIGHT: "TRUE"
       CUSTOM_SERVER_PROPERTIES: |
         allow-cheats=true
         level-name=OsteBoys
