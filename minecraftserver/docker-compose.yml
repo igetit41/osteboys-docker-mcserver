@@ -25,9 +25,6 @@ services:
       REMOVE_OLD_MODS: "TRUE"
 
       ENABLE_WHITELIST: "FALSE"
-      WHITELIST: |
-        "D3F1L3"
-        "PlanetHEOS0X"
       OP: |
         "D3F1L3"
         "PlanetHEOS0X"
