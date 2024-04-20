@@ -1,0 +1,11 @@
+[Unit]
+Description=minecraftserver
+
+[Service]
+User=root
+WorkingDirectory=/home/josterhaus/osteboys-docker-mcserver/minecraftserver
+ExecStart=/home/josterhaus/osteboys-docker-mcserver/minecraftserver/minecraftserver.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
