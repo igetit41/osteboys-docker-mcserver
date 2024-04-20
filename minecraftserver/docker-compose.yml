@@ -10,6 +10,8 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: CURSEFORGE
+      VERSION: 1.20.1
+      FORGE_VERSION: 47.2.20
       CF_SERVER_MOD: /modpacks/ATM9-0.2.56.zip
 
       #TYPE: FORGE
