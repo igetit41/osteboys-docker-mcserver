@@ -24,7 +24,7 @@ services:
       GENERIC_PACK: https://mediafilez.forgecdn.net/files/5226/700/Server-Files-0.2.56.zip
       REMOVE_OLD_MODS: "TRUE"
 
-      MEMORY: "16G"
+      MEMORY: "32G"
 
       ENABLE_WHITELIST: "FALSE"
       #WHITELIST: |
