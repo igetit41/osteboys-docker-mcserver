@@ -21,7 +21,7 @@ services:
       FORGE_VERSION: 47.2.20
       #GENERIC_PACK: /modpacks/ATM9-0.2.56.zip
       #GENERIC_PACK: /modpacks/Server-Files-0.2.56.zip
-      GENERIC_PACK: https://mediafilez.forgecdn.net/files/5226/700/Server-Files-0.2.56.zip
+      #GENERIC_PACK: https://mediafilez.forgecdn.net/files/5226/700/Server-Files-0.2.56.zip
       REMOVE_OLD_MODS: "TRUE"
 
       MEMORY: "32G"
@@ -35,15 +35,15 @@ services:
         "PlanetHEOS0X"
 
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
-      SERVER_NAME: "OsteBoys"
+      SERVER_NAME: "OsteBoys-Vanilla"
       MODE: "survival"
       DIFFICULTY: "easy"
       PVP: "FALSE"
       ALLOW_FLIGHT: "TRUE"
-      LEVEL_TYPE: "biomesoplenty"
+      #LEVEL_TYPE: "biomesoplenty"
       CUSTOM_SERVER_PROPERTIES: |
         allow-cheats=true
-        level-name=OsteBoys
+        level-name=OsteBoys-Vanilla
 
     ports:
       - "25565:25565"
