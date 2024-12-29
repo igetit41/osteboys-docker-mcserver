@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   mc:
-    image: itzg/minecraft-server:latest
+    image: itzg/minecraft-server
     container_name: minecraftserver
     restart: unless-stopped
     tty: true
@@ -10,20 +10,21 @@ services:
     environment:
       EULA: "TRUE"
 
-      #TYPE: CURSEFORGE
-      #VERSION: 1.20.1
-      #FORGE_VERSION: 47.2.20
+      TYPE: CURSEFORGE
+      VERSION: 1.20.1
+      FORGE_VERSION: 47.3.0
+      CF_SERVER_MOD: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
       #CF_SERVER_MOD: /modpacks/ATM9-0.2.56.zip
       #CF_SERVER_MOD: /modpacks/Server-Files-0.2.56.zip
 
-      TYPE: FORGE
-      VERSION: 1.20.1
-      FORGE_VERSION: 47.3.0
-      GENERIC_PACK: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
+      #TYPE: FORGE
+      #VERSION: 1.20.1
+      #FORGE_VERSION: 47.3.0
+      #GENERIC_PACK: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
       #GENERIC_PACK: /modpacks/ATM9-0.2.56.zip #ATM9
       #GENERIC_PACK: /modpacks/Server-Files-0.2.56.zip
       #GENERIC_PACK: https://mediafilez.forgecdn.net/files/5226/700/Server-Files-0.2.56.zip
-      REMOVE_OLD_MODS: "TRUE"
+      #REMOVE_OLD_MODS: "TRUE"
 
       MEMORY: "32G"
 
