@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   mc:
-    image: itzg/minecraft-server
+    image: itzg/minecraft-server:latest
     container_name: minecraftserver
     restart: unless-stopped
     tty: true
@@ -19,7 +19,8 @@ services:
       TYPE: FORGE
       VERSION: 1.20.1
       FORGE_VERSION: 47.2.20
-      #GENERIC_PACK: /modpacks/ATM9-0.2.56.zip
+      GENERIC_PACK: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
+      #GENERIC_PACK: /modpacks/ATM9-0.2.56.zip #ATM9
       #GENERIC_PACK: /modpacks/Server-Files-0.2.56.zip
       #GENERIC_PACK: https://mediafilez.forgecdn.net/files/5226/700/Server-Files-0.2.56.zip
       REMOVE_OLD_MODS: "TRUE"
@@ -35,7 +36,7 @@ services:
         "PlanetHEOS0X"
 
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
-      SERVER_NAME: "OsteBoys-Vanilla"
+      SERVER_NAME: "OsteBoys"
       MODE: "survival"
       DIFFICULTY: "easy"
       PVP: "FALSE"
@@ -43,7 +44,7 @@ services:
       #LEVEL_TYPE: "biomesoplenty"
       CUSTOM_SERVER_PROPERTIES: |
         allow-cheats=true
-        level-name=OsteBoys-Vanilla
+        level-name=OsteBoys
 
     ports:
       - "25565:25565"
