@@ -28,10 +28,10 @@ newgrp docker
 
 sudo git config --global --add safe.directory '*'
 
-sudo git clone https://github.com/igetit41/osteboys-docker-mcserver
+git clone https://github.com/igetit41/osteboys-docker-mcserver
 
-#sudo git -C $GITPATH reset --hard
-#sudo git -C $GITPATH pull origin main
+#git -C $GITPATH reset --hard
+#git -C $GITPATH pull origin main
 
 sudo chmod +x $GITPATH/minecraftserver/minecraftserver.sh
 
