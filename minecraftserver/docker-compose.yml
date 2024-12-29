@@ -10,17 +10,18 @@ services:
     environment:
       EULA: "TRUE"
 
-      TYPE: CURSEFORGE
-      VERSION: 1.20.1
-      FORGE_VERSION: 47.3.0
-      CF_SERVER_MOD: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
+      #TYPE: CURSEFORGE
+      #TYPE: AUTO_CURSEFORGE
+      #VERSION: 1.20.1
+      #FORGE_VERSION: 47.3.0
+      #CF_SERVER_MOD: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
       #CF_SERVER_MOD: /modpacks/ATM9-0.2.56.zip
       #CF_SERVER_MOD: /modpacks/Server-Files-0.2.56.zip
 
-      #TYPE: FORGE
-      #VERSION: 1.20.1
-      #FORGE_VERSION: 47.3.0
-      #GENERIC_PACK: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
+      TYPE: FORGE
+      VERSION: 1.20.1
+      FORGE_VERSION: 47.3.0
+      GENERIC_PACK: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
       #GENERIC_PACK: /modpacks/ATM9-0.2.56.zip #ATM9
       #GENERIC_PACK: /modpacks/Server-Files-0.2.56.zip
       #GENERIC_PACK: https://mediafilez.forgecdn.net/files/5226/700/Server-Files-0.2.56.zip
