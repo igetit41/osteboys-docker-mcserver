@@ -1,4 +1,3 @@
-	
 #!/bin/bash
 
 export GITPATH=/home/d3f1l3/osteboys-docker-mcserver
