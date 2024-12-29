@@ -18,7 +18,7 @@ services:
 
       TYPE: FORGE
       VERSION: 1.20.1
-      FORGE_VERSION: 47.2.20
+      FORGE_VERSION: 47.3.0
       GENERIC_PACK: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
       #GENERIC_PACK: /modpacks/ATM9-0.2.56.zip #ATM9
       #GENERIC_PACK: /modpacks/Server-Files-0.2.56.zip
