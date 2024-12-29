@@ -1,4 +1,4 @@
 #!/bin/bash
-git -C /home/josterhaus/osteboys-docker-mcserver pull origin main
+git -C /home/d3f1l3/osteboys-docker-mcserver pull origin main
 
 docker compose up -d
