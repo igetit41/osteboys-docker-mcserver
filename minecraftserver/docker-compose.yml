@@ -29,16 +29,21 @@ services:
 
       MEMORY: "48G"
 
-      ENABLE_WHITELIST: "FALSE"
-      #WHITELIST: |
-        #"D3F1L3"
-        #"8a30e43b-73c2-49d3-bccc-ad50d8dbb928"
-
-        #"PlanetHEOS0X"
-        #"PlanetHEOS0X"
+      ENABLE_WHITELIST: "TRUE"
+      WHITELIST: |
+        "D3F1L3"
+        "PlanetHEOS0X"
+        "8a30e43b-73c2-49d3-bccc-ad50d8dbb928"
+        "575f63e4-a0b2-4718-850d-d91f21f080af"
       OP: |
         "D3F1L3"
         "PlanetHEOS0X"
+        "8a30e43b-73c2-49d3-bccc-ad50d8dbb928"
+        "575f63e4-a0b2-4718-850d-d91f21f080af"
+      
+      
+      #"8a30e43b-73c2-49d3-bccc-ad50d8dbb928"
+      #"575f63e4-a0b2-4718-850d-d91f21f080af"
 
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       SERVER_NAME: "OsteBoys"
