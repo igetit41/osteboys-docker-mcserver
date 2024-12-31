@@ -29,7 +29,7 @@ services:
 
       MEMORY: "48G"
 
-      WHITELIST: "D3F1L3,PlanetHEOS0X"
+      #WHITELIST: "D3F1L3,PlanetHEOS0X"
       #OP: |
       #  D3F1L3,
       #  PlanetHEOS0X,
