@@ -31,16 +31,14 @@ services:
 
       ENABLE_WHITELIST: "TRUE"
       WHITELIST: |
-        "D3F1L3"
-        "PlanetHEOS0X"
         "8a30e43b-73c2-49d3-bccc-ad50d8dbb928"
         "575f63e4-a0b2-4718-850d-d91f21f080af"
       OP: |
-        "D3F1L3"
-        "PlanetHEOS0X"
         "8a30e43b-73c2-49d3-bccc-ad50d8dbb928"
         "575f63e4-a0b2-4718-850d-d91f21f080af"
       
+      #"D3F1L3"
+      #"PlanetHEOS0X"
       
       #"8a30e43b-73c2-49d3-bccc-ad50d8dbb928"
       #"575f63e4-a0b2-4718-850d-d91f21f080af"
