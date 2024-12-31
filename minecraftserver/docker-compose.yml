@@ -27,11 +27,14 @@ services:
       #GENERIC_PACK: https://mediafilez.forgecdn.net/files/5226/700/Server-Files-0.2.56.zip
       #REMOVE_OLD_MODS: "TRUE"
 
-      MEMORY: "32G"
+      MEMORY: "48G"
 
       ENABLE_WHITELIST: "FALSE"
       #WHITELIST: |
         #"D3F1L3"
+        #"8a30e43b-73c2-49d3-bccc-ad50d8dbb928"
+
+        #"PlanetHEOS0X"
         #"PlanetHEOS0X"
       OP: |
         "D3F1L3"
