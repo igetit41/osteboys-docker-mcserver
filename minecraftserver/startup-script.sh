@@ -11,8 +11,8 @@ sudo chmod +x $GITPATH/minecraftserver/minecraftserver.sh
 
 sudo cp $GITPATH/minecraftserver/minecraftserver.service /etc/systemd/system/minecraftserver.service
 
-sudo curl -O https://mediafilez.forgecdn.net/files/6028/982/Server-Files-2.13.zip
-sudo mv ./Server-Files-2.13.zip $GITPATH/minecraftserver/modpacks/Server-Files-2.13.zip
+sudo curl -O https://mediafilez.forgecdn.net/files/5220/274/Server-Files-0.2.55.zip
+sudo mv ./Server-Files-0.2.55.zip $GITPATH/minecraftserver/modpacks/Server-Files-0.2.55.zip
 
 sudo systemctl daemon-reload
 sudo systemctl restart minecraftserver
@@ -21,7 +21,7 @@ sudo systemctl restart minecraftserver
 SERVER_PORT=25565
 
 # Docker container name
-CONTAINER=minecraftserver
+CONTAINER=minecraftserver-atm9
 
 # Define interval between checks for player activity (in seconds)
 CHECK_INTERVAL=60

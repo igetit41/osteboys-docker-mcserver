@@ -15,9 +15,9 @@ services:
       #FORGE_VERSION: 47.3.0
       #GENERIC_PACK: /modpacks/server-1.1.3.zip #ATM9-Skyblocks
       #GENERIC_PACK: /modpacks/Server-Files-2.13.zip #ATM10
-      
-      FORGE_VERSION: 47.1.3
-      GENERIC_PACK: /modpacks/Server-Files-0.1.0.zip #ATM9
+
+      FORGE_VERSION: 47.2.20
+      GENERIC_PACK: /modpacks/Server-Files-0.2.55.zip #ATM9
       #REMOVE_OLD_MODS: "TRUE"
 
       MEMORY: "48G"
