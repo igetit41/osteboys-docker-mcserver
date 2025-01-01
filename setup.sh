@@ -26,7 +26,6 @@ sudo groupadd docker
 sudo usermod -a -G docker $USER
 newgrp docker
 
-
 git config --global --add safe.directory '*'
 
 git clone https://github.com/igetit41/osteboys-docker-mcserver
@@ -41,9 +40,8 @@ mkdir $GITPATH/minecraftserver/modpacks
 #sudo mv ./server-1.1.3.zip $GITPATH/minecraftserver/modpacks/server-1.1.3.zip
 
 # ATM9
-sudo curl -O https://mediafilez.forgecdn.net/files/4752/160/Server-Files-0.1.0.zip
+curl -O https://mediafilez.forgecdn.net/files/4752/160/Server-Files-0.1.0.zip
 sudo mv ./Server-Files-0.1.0.zip $GITPATH/minecraftserver/modpacks/Server-Files-0.1.0.zip
-
 
 # ATM10
 #curl -O https://mediafilez.forgecdn.net/files/6028/982/Server-Files-2.13.zip
