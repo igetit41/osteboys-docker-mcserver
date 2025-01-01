@@ -11,6 +11,9 @@ sudo chmod +x $GITPATH/minecraftserver/minecraftserver.sh
 
 sudo cp $GITPATH/minecraftserver/minecraftserver.service /etc/systemd/system/minecraftserver.service
 
+sudo curl -O https://mediafilez.forgecdn.net/files/6028/982/Server-Files-2.13.zip
+sudo mv ./Server-Files-2.13.zip $GITPATH/minecraftserver/modpacks/Server-Files-2.13.zip
+
 sudo systemctl daemon-reload
 sudo systemctl restart minecraftserver
 
