@@ -34,14 +34,20 @@ git clone https://github.com/igetit41/osteboys-docker-mcserver
 #sudo git -C $GITPATH reset --hard
 #sudo git -C $GITPATH pull origin main
 
+mkdir $GITPATH/minecraftserver/modpacks
+
 # ATM9 SB
 #sudo curl -O https://mediafilez.forgecdn.net/files/5952/312/server-1.1.3.zip
 #sudo mv ./server-1.1.3.zip $GITPATH/minecraftserver/modpacks/server-1.1.3.zip
 
+# ATM9
+sudo curl -O https://mediafilez.forgecdn.net/files/4752/160/Server-Files-0.1.0.zip
+sudo mv ./Server-Files-0.1.0.zip $GITPATH/minecraftserver/modpacks/Server-Files-0.1.0.zip
+
+
 # ATM10
-mkdir $GITPATH/minecraftserver/modpacks
-curl -O https://mediafilez.forgecdn.net/files/6028/982/Server-Files-2.13.zip
-mv ./Server-Files-2.13.zip $GITPATH/minecraftserver/modpacks/Server-Files-2.13.zip
+#curl -O https://mediafilez.forgecdn.net/files/6028/982/Server-Files-2.13.zip
+#mv ./Server-Files-2.13.zip $GITPATH/minecraftserver/modpacks/Server-Files-2.13.zip
 
 sudo chmod +x $GITPATH/minecraftserver/minecraftserver.sh
 
