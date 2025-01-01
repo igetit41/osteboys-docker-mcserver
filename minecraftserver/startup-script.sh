@@ -27,7 +27,7 @@ CONTAINER=minecraftserver
 CHECK_INTERVAL=60
 
 # Max Idle Intervals
-IDLE_COUNT=15
+IDLE_COUNT=360
 
 # Count Idle Intervals
 COUNT=0
