@@ -33,7 +33,7 @@ services:
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       SERVER_NAME: "OsteBoys-ATM10"
       MODE: "survival"
-      DIFFICULTY: "easy"
+      DIFFICULTY: "hard"
       PVP: "FALSE"
       ALLOW_FLIGHT: "TRUE"
       CUSTOM_SERVER_PROPERTIES: |
